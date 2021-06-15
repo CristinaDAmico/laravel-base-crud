@@ -14,3 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PageController@index')->name('home');
+
+// ROTTE CON PARAMETRI
+Route::resource('comics', 'ComicController');
